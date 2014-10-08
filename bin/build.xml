@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<!-- Configuration of the Ant build system to generate a Jar file --> 
+<project name="TestMain" default="CreateJar">
+	  <target name="CreateJar" description="Create Jar file">
+	    	<jar destfile="C:\Users\Josh\Desktop\Server\plugins\test.jar" basedir="./">
+	            <manifest>
+	                <attribute name="Main-Class" value="me.VoidNation.Test.Main"/>
+	            </manifest>
+	        </jar>
+	  </target>
+</project>
